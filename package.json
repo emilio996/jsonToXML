@@ -1,0 +1,27 @@
+{
+  "main": "plataforma.html",
+  "name": "plataforma",
+  "window": {
+    "position": "center"
+  },
+  "dependencies": {
+    "async-each": "^1.0.1",
+    "axios": "^0.21.1",
+    "chokidar": "^2.1.8",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "file-dialog": "0.0.8",
+    "fs-extra": "^9.1.0",
+    "http": "0.0.1-security",
+    "jimp": "^0.16.0",
+    "jquery": "^3.3.1",
+    "mysql": "^2.18.1",
+    "node-unzip-2": "^0.2.8",
+    "node-zip": "^1.1.1",
+    "nw-programmatic-folder-select": "^1.0.4",
+    "socket.io": "^1.0.3",
+    "xml-js": "^1.6.11",
+    "zip-folder": "^1.0.0"
+  }
+}

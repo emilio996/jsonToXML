@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Plataforma</title>
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <!--<link rel="stylesheet" href="css/estiloAdmin.css">-->
+    <!--<link rel="stylesheet" href="css/bootstrap-theme.css">	-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <style>
+      #holder { border: 10px dashed #ccc; width: 350px; height: 350px; margin: 20px auto; padding: 1em}
+      #holder.hover { border: 10px dashed #333; }
+    </style>
+
+</head>
+<body>
+	<div class="container">
+        <div class="row">
+            <h1 class="nombrePlataforma"></h1>
+        </div>
+		<div class="row">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa deleniti magni beatae nulla, aut. Doloremque amet nisi fuga molestiae voluptatem aspernatur accusamus commodi mollitia libero iste a, rem, vero.
+		</div>
+
+            <br>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#lista">Lista de actualizaciones</a></li>
+            <li><a data-toggle="tab" href="#nueva">Nueva actualizacion</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="lista" class="tab-pane fade in active">
+                <div class="contActualizaciones">
+
+                </div>
+            </div>
+            <div id="nueva" class="tab-pane fade">
+                <h4>Arrastra en la linea punteada tu archivo XML para comenzar</h4>
+                <br>
+                <div id="holder">
+
+								</div>
+							<!--	<input type="button" value="Eviar archivos" nwdirectory=""></input>-->
+							<input type="submit" name="" id="subirArchivo" value="Subir Archivos"></input>
+            </div>
+          </div>
+
+	</div>
+
+    <!--<script>window.jQuery || document.write('<script src="vendor/jquery-1.11.2.min.js"><\/script>')</script>-->
+
+    <!--<script src="vendor/jquery-1.11.2.min.js"></script>-->
+
+    <!-- Cargamos el js de jquery-->
+    <script src="./js/plataforma.js"></script>
+    <!--<script src="vendor/bootstrap.js"></script>-->
+    <!-- Cargamos el js de bootstrap-->
+    <!--<script src="socket.io.js"></script>-->
+    <!--<script src="socket.io-stream.js"></script>-->
+</body>
+</html>
